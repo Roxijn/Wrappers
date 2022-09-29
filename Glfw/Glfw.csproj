@@ -5,7 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<AssemblyName>Roxijn.Glfw</AssemblyName>
 	<VersionPrefix>3.3.8</VersionPrefix>
+	<RootNamespace />
   </PropertyGroup>
 
   <ItemGroup>

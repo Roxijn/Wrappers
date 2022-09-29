@@ -1,7 +1,7 @@
 ﻿namespace Vulkan
 {
-    public class Class1
+    public partial class Vulkan
     {
-
+        const string LibraryName = "vulkan-1";
     }
 }
