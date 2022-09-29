@@ -1,4 +1,4 @@
-This is a managed wrapper around the [GLFW](https://www.glfw.org/) library for .Net. The wrapper follows the exact naming conventions of GLFW, and is as pure as possible to the original API, while still allowing consumers to avoid handling marshalling themselves. Therefore code written using the library should look resonably similar to native code.
+This is a managed wrapper around the [GLFW](https://www.glfw.org/) library for .Net.
 
 ## Usage
 
