@@ -22,7 +22,7 @@ glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
 //create a window
-var window = glfwCreateWindow(800, 600, "Vulkan", GLFWmonitor.Zero, GLFWwindow.Zero);
+var window = glfwCreateWindow(800, 600, "Empty", GLFWmonitor.Zero, GLFWwindow.Zero);
 
 //loop until we close the window
 while(glfwWindowShouldClose(window) == GLFW_FALSE) glfwPollEvents();
