@@ -1,14 +1,14 @@
-# About
+# GLFW
 
 This is a wrapper around [GLFW](https://www.glfw.org/). Everything is wrapped in as pure a manner as possible to the original Glfw. Therefore code written using the library should look similar.
 
-# Usage
+## Usage
 
 Using this wrapper requires GLFW to be installed and the location of the dynamic library Specified in [Lib.cs](./Lib.cs). Once the assembly is referenced, GLFW can be added to the scope with a static using directive.
 
 Since this library perfoms only minor changes to the API, regarding typing, it is possible to refer directly to educational material and documentation for GLFW directly, while taking C# into account.
 
-# Example
+## Example
 
 Below is an example demonstrating how this library might be used in practice to create an empty window:
 
