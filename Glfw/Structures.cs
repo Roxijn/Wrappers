@@ -1,8 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Glfw;
-
-public partial class Lib
+public partial class Glfw
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct GLFWmonitor
