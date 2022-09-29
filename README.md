@@ -1,6 +1,4 @@
-# GLFW
-
-This is a wrapper around [GLFW](https://www.glfw.org/). Everything is wrapped in as pure a manner as possible to the original Glfw, while still allowing consumers to avoid handling marshalling themselves. Therefore code written using the library should look resonably similar to native code.
+This is a wrapper around [GLFW](https://www.glfw.org/) for .Net. Everything is wrapped in as pure a manner as possible to the original Glfw, while still allowing consumers to avoid handling marshalling themselves. Therefore code written using the library should look resonably similar to native code.
 
 ## Usage
 
