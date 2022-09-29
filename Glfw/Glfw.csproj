@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-	<AssemblyName>Roxijn.Glfw</AssemblyName>
+	<AssemblyName>Roxijn.$(MSBuildProjectName.Replace(" ", "_"))</AssemblyName>
 	<VersionPrefix>3.3.8</VersionPrefix>
-	<RootNamespace />
+	<RootNamespace>Roxijn.$(MSBuildProjectName)</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

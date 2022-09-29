@@ -4,8 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>Roxijn.Vulkan</AssemblyName>
-    <RootNamespace />
+    <AssemblyName>Roxijn.$(MSBuildProjectName.Replace(" ", "_"))</AssemblyName>
+    <RootNamespace>Roxijn.$(MSBuildProjectName)</RootNamespace>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
