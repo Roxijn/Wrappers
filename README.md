@@ -4,7 +4,7 @@ This is a wrapper around [GLFW](https://www.glfw.org/). Everything is wrapped in
 
 ## Usage
 
-Using this wrapper requires GLFW to be installed and the location of the dynamic library Specified in [Lib.cs](./Lib.cs). Once the assembly is referenced, GLFW can be added to the scope with a static using directive.
+Using this wrapper requires GLFW binaries to be downloaded from their website, or built, and then the location of the dynamic library Specified in [Lib.cs](./Lib.cs). Once the assembly is referenced, GLFW can be added to the scope with a static using directive.
 
 Since this library perfoms only minor changes to the API, regarding typing, it is possible to refer directly to educational material and documentation for GLFW directly, while taking C# into account.
 
