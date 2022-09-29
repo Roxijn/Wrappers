@@ -1,4 +1,4 @@
-﻿namespace Sparrow.Glfw;
+﻿namespace Glfw;
 
 public partial class Lib
 {
