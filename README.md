@@ -1,6 +1,6 @@
 # GLFW
 
-This is a wrapper around [GLFW](https://www.glfw.org/). Everything is wrapped in as pure a manner as possible to the original Glfw. Therefore code written using the library should look similar.
+This is a wrapper around [GLFW](https://www.glfw.org/). Everything is wrapped in as pure a manner as possible to the original Glfw, while still allowing consumers to avoid handling marshalling themselves. Therefore code written using the library should look resonably similar to native code.
 
 ## Usage
 
@@ -13,7 +13,8 @@ Since this library perfoms only minor changes to the API, regarding typing, it i
 Below is an example demonstrating how this library might be used in practice to create an empty window:
 
 ```C#
-using static Glfw.Lib; //bring the library in
+//use the wrapper
+using static Glfw.Lib;
 
 //initialisation
 if (glfwInit() == GLFW_FALSE) return;
