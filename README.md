@@ -8,6 +8,8 @@ Using this wrapper requires GLFW to be installed and the location of the dynamic
 
 Since this library perfoms only minor changes to the API, regarding typing, it is possible to refer directly to educational material and documentation for GLFW directly, while taking C# into account.
 
+# Example
+
 Below is an example demonstrating how this library might be used in practice to create an empty window:
 
 ```C#
