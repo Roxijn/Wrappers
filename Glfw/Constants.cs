@@ -1,4 +1,4 @@
-﻿public partial class Glfw
+﻿public static partial class Glfw
 {
     public const int GLFW_FALSE = 0;
     public const int GLFW_TRUE = 1;

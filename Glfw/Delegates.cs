@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-public partial class Glfw
+public static partial class Glfw
 {
     public delegate void GLFWerrorfun(int code, [MarshalAs(UnmanagedType.LPUTF8Str)] string description);
     public delegate void GLFWmonitorfun(GLFWmonitor monitor, int @event);

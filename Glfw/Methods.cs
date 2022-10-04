@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-public partial class Glfw
+public static partial class Glfw
 {
     [LibraryImport(LibraryName)]
     public static partial int glfwInit();
@@ -38,7 +38,7 @@ public partial class Glfw
     [LibraryImport(LibraryName)]
     public static partial nint glfwGetMonitorUserPointer(GLFWmonitor monitor);
     [LibraryImport(LibraryName)]
-    public static partial GLFWmonitorfun SetMonitorCallback(GLFWmonitorfun callback);
+    public static partial GLFWmonitorfun glfwSetMonitorCallback(GLFWmonitorfun callback);
     [LibraryImport(LibraryName)]
     [return: MarshalAs(UnmanagedType.LPArray, SizeParamIndex = 1)]
     public static partial GLFWvidmode[] glfwGetVideoModes(GLFWmonitor monitor, out int count);
