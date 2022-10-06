@@ -5,9 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-	<AssemblyName>Roxijn.$(MSBuildProjectName.Replace(" ", "_"))</AssemblyName>
 	<VersionPrefix>3.3.8</VersionPrefix>
-	<RootNamespace>Roxijn.$(MSBuildProjectName)</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;CA1420</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
